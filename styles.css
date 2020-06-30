@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("./robot1.png");
+  background-size: 100px 100px;
+  background-repeat: repeat;
+  align-items: center;
+}
+.header {
+  background-image: linear-gradient(#fd6b82, white);
+  height: 90px;
+  text-align: center;
+  font-size: 80px;
+  font-family: VT323;
+  color: #434343;
+  text-shadow: 2px 2px #64f3d5;
+  margin: 30px;
+  padding: 10px;
+  border: solid 4px #434343;
+}
+
+@media only screen and (max-width: 665px) {
+  .header {
+    font-size: 50px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .header {
+    font-size: 50px;
+    height: 100px;
+  }
+}
+.control-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+  width: 300px;
+  border: solid 5px #434343;
+  background-color: white;
+  margin: 10px;
+  background-image: linear-gradient(#64f3d5, white);
+}
+.arrow-button-container {
+  display: flex;
+  justify-content: center;
+}
+.arrow-button {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+}
+.arrow-button-forward {
+  background-image: url(./arrowbutton.png);
+  background-size: 70px 70px;
+}
+.arrow-button-forward:hover {
+  transform: scale(1.1);
+}
+.arrow-button-left {
+  background-image: url(./arrowbutton.png);
+  background-size: 70px 70px;
+  transform: rotate(-90deg);
+}
+.arrow-button-left:hover {
+  transform: scale(1.1) rotate(-90deg);
+}
+.arrow-button-right {
+  background-image: url(./arrowbutton.png);
+  background-size: 70px 70px;
+  transform: rotate(90deg);
+}
+.arrow-button-right:hover {
+  transform: scale(1.1) rotate(90deg);
+}
+.arrow-button-backward {
+  background-image: url(./arrowbutton.png);
+  background-size: 70px 70px;
+  transform: rotate(180deg);
+}
+.arrow-button-backward:hover {
+  transform: scale(1.1) rotate(180deg);
+}
+p {
+  font-family: VT323;
+  font-size: 30px;
+  color: #434343;
+  text-shadow: 2px 2px #64f3d5;
+  text-decoration: underline;
+  text-align: center;
+}
+.directions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.directions-container > img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+.bottom-button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-buttons {
+  font-family: VT323;
+  font-family: VT323;
+  font-size: 30px;
+  color: #434343;
+  text-shadow: 2px 2px #64f3d5;
+  border: 2px solid turquoise;
+  margin: 10px;
+}
+.bottom-buttons:hover {
+  background-color: #434343;
+  color: white;
+  text-shadow: none;
+}
