@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("./robot1.png");
+  background-image: url("./Images/robot1.png");
   background-size: 100px 100px;
   background-repeat: repeat;
   align-items: center;
@@ -56,14 +56,14 @@
   border-radius: 3px;
 }
 .arrow-button-forward {
-  background-image: url(./arrowbutton.png);
+  background-image: url(./Images/arrowbutton.png);
   background-size: 70px 70px;
 }
 .arrow-button-forward:hover {
   transform: scale(1.1);
 }
 .arrow-button-left {
-  background-image: url(./arrowbutton.png);
+  background-image: url(./Images/arrowbutton.png);
   background-size: 70px 70px;
   transform: rotate(-90deg);
 }
@@ -71,7 +71,7 @@
   transform: scale(1.1) rotate(-90deg);
 }
 .arrow-button-right {
-  background-image: url(./arrowbutton.png);
+  background-image: url(./Images/arrowbutton.png);
   background-size: 70px 70px;
   transform: rotate(90deg);
 }
@@ -79,7 +79,7 @@
   transform: scale(1.1) rotate(90deg);
 }
 .arrow-button-backward {
-  background-image: url(./arrowbutton.png);
+  background-image: url(./Images/arrowbutton.png);
   background-size: 70px 70px;
   transform: rotate(180deg);
 }
