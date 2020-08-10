@@ -4,7 +4,7 @@
 
 ###### May 2020
 
-_I made this app in order to control a little robot my partner built. It can go forwards, backwards, left and right!_
+_I made this app in order to control a little robot my partner built (out of an old shoe- hence the name!). It can go forwards, backwards, left and right!_
 
 ### Main learning points:
 
