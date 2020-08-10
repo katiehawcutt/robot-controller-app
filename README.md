@@ -1,4 +1,6 @@
-# ShoeBot App
+# ShoeBot
+
+![ShoeBot Controls](./Images/shoebot-screenshot.PNG)
 
 ###### May 2020
 
