@@ -6,7 +6,7 @@
 
 _I made this app in order to control a little robot my partner built (out of an old shoe- hence the name!). It can go forwards, backwards, left and right!_
 
-### Main learning points:
+## Main learning points:
 
 - I was able to practice using fetch() again but instead of using a get request like I had for the Kayne West Quote Generator, I used a post request (because I wanted to send data to ShoeBot).
 - The user selects the directions by clicking on the relevant image button. This data is then stored in a JavaScript object which is later stringified before being sent to ShoeBot.
@@ -31,7 +31,7 @@ No prerequisites
 
 1.  Clone the repo
 
-`git clone https://github.com/katiehawcutt/basic-stopwatch.git`
+`git clone https://github.com/katiehawcutt/robot-controller-app.git`
 
 2. Run the index.html in a browser
 
