@@ -1,3 +1,5 @@
+const clearButton = document.querySelector("#clearButton");
+
 const dataToSend = {
   sequence: [],
 };
@@ -11,16 +13,15 @@ function addDirections(direction) {
 function userChoice(direction) {
   var image = document.createElement("img");
   if (direction == "forward") {
-    image.src = "./bluearrow-forward.png";
+    image.src = "./Images/bluearrow-forward.png";
   } else if (direction == "left") {
-    image.src = "./bluearrow-left.png";
+    image.src = "./Images/bluearrow-left.png";
   } else if (direction == "right") {
-    image.src = "./bluearrow-right.png";
+    image.src = "./Images/bluearrow-right.png";
   } else {
-    image.src = "./bluearrow-backward.png";
+    image.src = "./Images/bluearrow-backward.png";
   }
   document.querySelector(".directions-container").appendChild(image);
-  console.log("user log called");
 }
 
 function runShoebot() {
@@ -50,3 +51,9 @@ function clearArray() {
 function clearUserChoice() {
   document.querySelector(".directions-container").innerHTML = "";
 }
+
+clearButton.addEventListener("click", () => {
+  clearArray();
+  clearUserChoice();
+  console.log("directions cleared");
+});
