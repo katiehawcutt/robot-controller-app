@@ -25,7 +25,7 @@ Clone the repo as instructed below
 
 ## Prerequisites:
 
-No prerequisites
+ShoeBot! Please see Usage below
 
 ## Installation
 
