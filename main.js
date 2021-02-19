@@ -1,4 +1,4 @@
-const clearButton = document.querySelector("#clearButton");
+const clearButton = document.querySelector("#clear-button");
 
 const dataToSend = {
   sequence: [],
@@ -11,7 +11,7 @@ function addDirections(direction) {
 }
 
 function userChoice(direction) {
-  var image = document.createElement("img");
+  const image = document.createElement("img");
   if (direction == "forward") {
     image.src = "./Images/bluearrow-forward.png";
   } else if (direction == "left") {

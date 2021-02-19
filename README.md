@@ -2,7 +2,11 @@
 
 ![ShoeBot Controls](./Images/shoebot-screenshot.PNG)
 
-###### May 2020
+##### February 2021
+
+_I refactored this app and implemented more semantic HTML, made a few tweaks to improve the styling and got rid of any unnecessary code (eg. unused ID's)._
+
+##### May 2020
 
 _I made this app in order to control a little robot my partner built (out of an old shoe- hence the name!). It can go forwards, backwards, left and right!_
 

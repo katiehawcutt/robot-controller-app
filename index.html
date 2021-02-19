@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>ShoeBot App</title>
-
     <link
       href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
       rel="stylesheet"
@@ -10,55 +9,41 @@
     <link href="./styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="container">
-
-      <div class="header">SHOE-BOT CONTROLS</div>
-
+    <header>
+      <h1>SHOE-BOT CONTROLS</h1>
+    </header>
+    <main>
       <div class="control-panel">
-
         <div class="arrow-button-container">
           <button
             class="arrow-button arrow-button-forward"
-            id="forwardbutton"
             onclick="addDirections('forward')"
           ></button>
         </div>
-
         <div class="arrow-button-container">
           <button
             class="arrow-button arrow-button-left"
-            id="leftbutton"
             onclick="addDirections('left')"
           ></button>
           <button
             class="arrow-button arrow-button-right"
-            id="rightbutton"
             onclick="addDirections('right')"
           ></button>
         </div>
-
         <div class="arrow-button-container">
           <button
             class="arrow-button arrow-button-backward"
-            id="backwardbutton"
             onclick="addDirections('backward')"
           ></button>
         </div>
-
         <p>YOUR ROUTE</p>
-
-        <div class="directions-container" >
-          
-        </div>
+        <div class="directions-container"></div>
         <div class="bottom-button-container">
-          <button class="bottom-buttons" id="clearButton">
-            CLEAR
-          </button>
-          <button class="bottom-buttons" onclick="runShoebot()" >EXECUTE</button>
-          </div>
+          <button class="bottom-buttons" id="clear-Button">CLEAR</button>
+          <button class="bottom-buttons" onclick="runShoebot()">EXECUTE</button>
         </div>
       </div>
-    </div>
+    </main>
     <script src="./main.js"></script>
   </body>
 </html>
