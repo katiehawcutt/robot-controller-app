@@ -1,6 +1,6 @@
 # ShoeBot
 
-![ShoeBot Controls](./Images/shoebot-screenshot.PNG)
+![ShoeBot Controls](./Images/shoebot-screenshot.png)
 
 ##### February 2021
 
@@ -18,7 +18,7 @@ _I made this app in order to control a robot (built out of an old shoe- hence th
 - The `POST` requests I send contain an array of directions
 - When the server receives the request, GPIO pins are used to control the motors which moves ShoeBot
 
-![A photo of ShoeBot](./Images/shoeBot.jpg)
+![A photo of ShoeBot](./Images/shoeBot.png)
 
 ## Main learning points:
 
