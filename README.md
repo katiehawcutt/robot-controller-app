@@ -1,7 +1,5 @@
 # ShoeBot
 
-![ShoeBot Controls](./Images/shoebot-screenshot.png)
-
 ##### February 2021
 
 _I refactored this app and implemented more semantic HTML, made a few tweaks to improve the styling and got rid of any unnecessary code (eg. unused ID's)._
