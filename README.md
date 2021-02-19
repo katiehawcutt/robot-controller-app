@@ -8,7 +8,17 @@ _I refactored this app and implemented more semantic HTML, made a few tweaks to 
 
 ##### May 2020
 
-_I made this app in order to control a little robot my partner built (out of an old shoe- hence the name!). It can go forwards, backwards, left and right!_
+_I made this app in order to control a robot (built out of an old shoe- hence the name!). It can go forwards, backwards, left and right!_
+
+## How it works:
+
+- ShoeBot has two motors (left and right) and runs on a Raspberry Pi
+- On the Raspberry Pi there is a Node server running which listens to `POST` requests
+- My app communicates with the server over the local network
+- The `POST` requests I send contain an array of directions
+- When the server receives the request, GPIO pins are used to control the motors which moves ShoeBot
+
+![A photo of ShoeBot](./Images/shoeBot.jpg)
 
 ## Main learning points:
 
