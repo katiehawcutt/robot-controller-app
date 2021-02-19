@@ -8,7 +8,7 @@ _I refactored this app and implemented more semantic HTML, made a few tweaks to 
 
 _I made this app in order to control a robot (built out of an old shoe- hence the name!). It can go forwards, backwards, left and right!_
 
-![ShoeBot Controls](./Images/shoebot-screenshot.png)
+![ShoeBot Controls](./Images/shoebot-screenshot.PNG)
 
 ## How it works:
 
